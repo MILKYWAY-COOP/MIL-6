@@ -19,7 +19,6 @@ A backend API built with Express.js, TypeScript, PostgreSQL, and Docker.
 - **Express.js Server**: RESTful API with TypeScript for type safety
 - **PostgreSQL Database**: Relational database with Prisma ORM
 - **Docker Support**: Containerized development and deployment
-- **User Management**: Full CRUD operations for users with validation
 - **Logging**: HTTP request logging (Morgan) and structured application logging (Winston)
 - **Testing**: Comprehensive test suite with Jest and Supertest
 - **Validation**: Input validation for user data (name, email, password, date of birth)
