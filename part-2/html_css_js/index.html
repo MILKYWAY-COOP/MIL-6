@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name List Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Name List Manager</h1>
+      <div class="input-section">
+        <input
+          type="text"
+          id="nameInput"
+          placeholder="Enter names separated by commas (e.g., John, Jane, Bob)"
+        />
+        <button id="submitBtn">Add Names</button>
+      </div>
+      <table id="nameTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Character Count</th>
+          </tr>
+        </thead>
+        <tbody id="nameTableBody">
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
