@@ -133,39 +133,6 @@ http://localhost:3000
     - `400`: `{ "error": "INVALID_NAME" }` (or other validation errors)
     - `400`: `{ "error": "DUPLICATE_EMAIL" }`
 
-#### Get All Users
-- **GET /users**
-  - **Response (200):**
-    ```json
-    [
-      {
-        "id": 1,
-        "user_name": "johndoe",
-        "date_of_birth": "1990-01-01T00:00:00.000Z",
-        "email": "john@example.com"
-      }
-    ]
-    ```
-
-#### Get User by ID
-- **GET /users/:id**
-  - **Parameters:** `id` (integer)
-  - **Success Response (200):** User object (same as above)
-  - **Error Response (404):** `{ "error": "USER_NOT_FOUND" }`
-
-#### Update User
-- **PUT /users/:id**
-  - **Parameters:** `id` (integer)
-  - **Request Body:** Same as POST (all fields required)
-  - **Success Response (200):** Updated user object
-  - **Error Response (404):** `{ "error": "User not found" }`
-
-#### Delete User
-- **DELETE /users/:id**
-  - **Parameters:** `id` (integer)
-  - **Success Response (204):** No content
-  - **Error Response (404):** `{ "error": "User not found" }`
-
 ## Testing
 
 Run the comprehensive test suite:
